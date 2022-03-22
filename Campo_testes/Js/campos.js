@@ -24,23 +24,22 @@ let copiarTextoGrupo = () => {
   let CampoCEP = document.getElementById("CEP");
   let CampoEmpresa = document.getElementById("GroupSelect");
  
+ 
   function Delete() {
     CampoNome.value = ""
-      CampoCargo.value= ""
-      CampoCargo.value = ""
-      CampoNome.value = ""
-      CampoNumero.value = "" 
-      CampoEnredeco.value = ""
-      CampoMatricula.value =  ""
-      CampoCEP.value = ""
-      CampoEmpresa.value = "Void"
+    CampoCargo.value= ""
+    CampoCargo.value = ""
+    CampoNome.value = ""
+    CampoNumero.value = "" 
+    CampoEnredeco.value = ""
+    CampoMatricula.value =  ""
+    CampoCEP.value = ""
+    CampoEmpresa.value = "Void"
    }
 
   if (
     CampoNome.value == "" ||
     CampoCargo.value == "" ||
-    CampoCargo.value == "" ||
-    CampoNome.value == "" ||
     CampoNumero.value == "" ||
     CampoEnredeco == "" ||
     CampoMatricula == "" ||
@@ -57,8 +56,9 @@ let copiarTextoGrupo = () => {
       CampoMatricula.value,
       CampoCEP.value,
       CampoEmpresa.value
+      
     );
-    Delete();
+  Delete();
   };
 };
 
@@ -66,7 +66,7 @@ function Gerar(nome, contato, cargo, endereco, matricula, CEP, empresa) {
   let usuario = new Usuario(nome, contato, cargo, endereco, matricula, CEP, empresa);
   console.log(usuario);
 
-
+    
     var texto;
     switch (empresa) {
       case "Grupo1":
@@ -228,6 +228,6 @@ function Gerar(nome, contato, cargo, endereco, matricula, CEP, empresa) {
   document.body.removeChild(inputTest);
 
   alert("Assinatura gerada");
-      
+     
 }
 
