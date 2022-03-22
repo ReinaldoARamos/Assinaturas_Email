@@ -83,7 +83,7 @@ function Gerar(nome, contato, cargo, endereco, matricula, CEP, empresa) {
           <p style="font-size: 25px;font-weight: bold; margin: 0;color: black;"> ${nome} </p>
           <p style="font-size: 20px;font-weight: bold; margin: 0;color: black;"> ${cargo} </p>
           </br> 
-          <p style="font-size: 25px;font-weight: bold; margin: 0;color: grey;">+55 ${contato}</p>
+          <p style="font-size: 25px;font-weight: bold; margin: 0;color: grey;"> ${contato}</p>
           <p style="font-size: 16px; margin: 0;color: grey;">${endereco}</p> 
           <p style="font-size: 16px; margin: 0;color: grey;">${CEP}</p> 
           </br> 
@@ -131,7 +131,7 @@ function Gerar(nome, contato, cargo, endereco, matricula, CEP, empresa) {
   <p style="font-size: 25px;font-weight: bold; margin: 0;color: black;"> ${nome} </p>
   <p style="font-size: 20px;font-weight: bold; margin: 0;color: black;"> ${cargo} </p>
   </br> 
-  <p style="font-size: 25px;font-weight: bold; margin: 0;color: grey;">+55 ${contato}</p>
+  <p style="font-size: 25px;font-weight: bold; margin: 0;color: grey;"> ${contato}</p>
   <p style="font-size: 16px; margin: 0;color: grey;">${endereco}</p> 
   <p style="font-size: 16px; margin: 0;color: grey;">${CEP}</p> 
       </br> 
@@ -173,7 +173,7 @@ function Gerar(nome, contato, cargo, endereco, matricula, CEP, empresa) {
         <p style="font-size: 25px;font-weight: bold; margin: 0;color: black;"> ${nome} </p>
         <p style="font-size: 20px;font-weight: bold; margin: 0;color: black;"> ${cargo} </p>
         </br> 
-        <p style="font-size: 25px;font-weight: bold; margin: 0;color: grey;">+55 ${contato}</p>
+        <p style="font-size: 25px;font-weight: bold; margin: 0;color: grey;"> ${contato}</p>
         <p style="font-size: 16px; margin: 0;color: grey;">${endereco}</p> 
         <p style="font-size: 16px; margin: 0;color: grey;">${CEP}</p> 
             </br> 
