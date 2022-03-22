@@ -231,7 +231,3 @@ function Gerar(nome, contato, cargo, endereco, matricula, CEP, empresa) {
       
 }
 
-
-/*
-
-*/
